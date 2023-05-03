@@ -1404,3 +1404,13 @@
 - regex: 'Java ME|(J2ME|Profile)/MIDP|MIDP-(?:\d+[\.\d]+)/CLDC|Configuration/CLDC|Java; U; MIDP|MMP/\d.\d'
   name: 'Java ME'
   version: ''
+
+
+# Tourlina
+- regex: 'Tourlina.*ios; Version (16.4.1).*'
+  name: iOS
+  version: '$1'
+
+- regex: 'Tourlina.*android; (SP1A.210812.016.G973FXXSGHWC2)'
+  name: Android
+  version: '$1'

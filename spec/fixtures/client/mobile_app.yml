@@ -1457,3 +1457,17 @@
     type: mobile app
     name: Microsoft Office
     version:
+
+-
+  user_agent: Tourlina v2.0.0 (1) (ios; Version 16.4.1 (Build 20E252))
+  client:
+    type: mobile app
+    name: Tourlina
+    version: 16.4.1
+
+-
+  user_agent: Tourlina v2.0.0-staging (1) (android; SP1A.210812.016.G973FXXSGHWC2)
+  client:
+    type: mobile app
+    name: Tourlina
+    version: 2.0.0

@@ -1156,7 +1156,7 @@
   os:
     name: Android
     short_name: AND
-    version: 
+    version:
     platform:
     family: Android
 -
@@ -1164,7 +1164,7 @@
   os:
     name: iOS
     short_name: IOS
-    version: 
+    version:
     platform:
     family: iOS
 -
@@ -1188,7 +1188,7 @@
   os:
     name: Android
     short_name: AND
-    version: 
+    version:
     platform:
     family: Android
 -
@@ -3629,4 +3629,22 @@
     short_name: AND
     version: ""
     platform: x64
+    family: Android
+
+-
+  user_agent: Tourlina v2.0.0 (1) (ios; Version 16.4.1 (Build 20E252))
+  os:
+    name: iOS
+    short_name: IOS
+    version: "16.4.1"
+    platform:
+    family: iOS
+
+-
+  user_agent: Tourlina v2.0.0-staging (1) (android; SP1A.210812.016.G973FXXSGHWC2)
+  os:
+    name: Android
+    short_name: AND
+    version: SP1A.210812.016.G973FXXSGHWC2
+    platform:
     family: Android

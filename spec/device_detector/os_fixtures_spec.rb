@@ -11,7 +11,7 @@ describe DeviceDetector::OS do
         headers = f['headers']
 
         describe user_agent do
-          it 'should have the expected name' do
+          it "should have the expected name" do
             device = DeviceDetector.new(user_agent, headers)
             assert_equal f['os']['name'], device.os_name, 'failed OS name detection'
           end
