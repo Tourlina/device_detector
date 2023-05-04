@@ -1389,6 +1389,6 @@
   version: '$1'
 
 # Tourlina
-- regex: Tourlina v(2.0.0.*)
+- regex: Tourlina v(\d+.\d+.\d+)
   name: Tourlina
   version: '$1'

@@ -6,6 +6,17 @@
 ###############
 
 ##########
+# Tourlina
+##########
+- regex: 'Tourlina.*\(\d+\) \(ios; Version (\d+.\d.\d) \(Build \w+\)\)'
+  name: iOS
+  version: '$1'
+
+- regex: 'Tourlina.*\(\d+\) \(android; (\S+)\)'
+  name: Android
+  version: '$1'
+
+##########
 # RouterOS (https://help.mikrotik.com/docs/display/ROS/RouterOS)
 ##########
 - regex: 'Mikrotik/(\d).x'
@@ -1404,13 +1415,3 @@
 - regex: 'Java ME|(J2ME|Profile)/MIDP|MIDP-(?:\d+[\.\d]+)/CLDC|Configuration/CLDC|Java; U; MIDP|MMP/\d.\d'
   name: 'Java ME'
   version: ''
-
-
-# Tourlina
-- regex: 'Tourlina.*ios; Version (16.4.1).*'
-  name: iOS
-  version: '$1'
-
-- regex: 'Tourlina.*android; (SP1A.210812.016.G973FXXSGHWC2)'
-  name: Android
-  version: '$1'

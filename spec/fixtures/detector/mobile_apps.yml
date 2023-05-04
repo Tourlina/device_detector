@@ -1885,3 +1885,27 @@
     model: ""
   os_family: Windows
   browser_family: Unknown
+
+-
+  user_agent: Tourlina v1.2.3 (1) (ios; Version 3.2.1 (Build 20E252))
+  os:
+    name: iOS
+    version: 3.2.1
+    platform: iOS
+  os_family: iOS
+  client:
+    type: mobile app
+    name: Tourlina
+    version: 1.2.3
+
+-
+  user_agent: Tourlina v1.2.3-staging (1) (android; SP1A.2222.111.ADFAASDF)
+  os:
+    name: Android
+    version: SP1A.2222.111.ADFAASDF
+    platform: Android
+  os_family: Android
+  client:
+    type: mobile app
+    name: Tourlina
+    version: 1.2.3

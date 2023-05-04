@@ -3632,19 +3632,19 @@
     family: Android
 
 -
-  user_agent: Tourlina v2.0.0 (1) (ios; Version 16.4.1 (Build 20E252))
+  user_agent: Tourlina v1.2.3 (1) (ios; Version 3.2.1 (Build 20E252))
   os:
     name: iOS
     short_name: IOS
-    version: "16.4.1"
+    version: "3.2.1"
     platform:
     family: iOS
 
 -
-  user_agent: Tourlina v2.0.0-staging (1) (android; SP1A.210812.016.G973FXXSGHWC2)
+  user_agent: Tourlina v1.2.3-staging (1) (android; SP1A.2222.111.ADFAASDF)
   os:
     name: Android
     short_name: AND
-    version: SP1A.210812.016.G973FXXSGHWC2
+    version: SP1A.2222.111.ADFAASDF
     platform:
     family: Android
